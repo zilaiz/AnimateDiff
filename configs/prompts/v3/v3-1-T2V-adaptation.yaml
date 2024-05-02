@@ -11,26 +11,28 @@
   # controlnet_config: ""
   # controlnet_path: ""
 
-  H: 480
-  W: 480
+  H: 512
+  W: 512
   seed: [123,234]
   steps: 25
   guidance_scale: 8.5
 
   controlnet_image_indexs: [0, 1, 2]
   controlnet_images:
-    - "__assets__/demos/image/dog/frame_0.png"
-    - "__assets__/demos/image/dog/frame_1.png"
-    - "__assets__/demos/image/dog/frame_2.png"
-    # - "__assets__/demos/image/coffee_2.png"
-    # - "__assets__/demos/image/coffee_3.png"
+    # - "__assets__/demos/image/dog/frame_0.png"
+    # - "__assets__/demos/image/dog/frame_1.png"
+    # - "__assets__/demos/image/dog/frame_2.png"
+    - "__assets__/demos/image/coffee_1.png"
+    - "__assets__/demos/image/coffee_2.png"
+    - "__assets__/demos/image/coffee_3.png"
   # controlnet_image_indexs: ""
   # controlnet_images: ""
 
   prompt:
-    - ""
+    - "a robot arm is pushing a white mug towards the coffee machine"
+    # - "a robot arm is pushing a white mug towards the coffee machine"
     # - "a pharaoh hound running over a grassy field"
-    # - "a pharaoh hound walking over a grassy field"
+    # - "a dog is running"
   n_prompt:
     - "worst quality, low quality, letterboxed"
 
